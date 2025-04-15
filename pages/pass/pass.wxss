@@ -14,7 +14,7 @@
   margin-top: 0rpx;
   width: 85%;  /* 宽度为父容器的 85% */
   height: 75%;
-  background-color: #e0f0fd;  /* 背景色为深灰色 */
+  background-color: #e0f0fd; 
   border-radius: 16rpx;  /* 设置圆角 */
   padding: 8rpx;  /* 内边距为 8rpx */
 }
@@ -22,7 +22,7 @@
 /* 顶部条，包含两张图片 */
 .top-bar {
   top: 0%;
-  background-color: #e0f0fd;  /* 背景色为浅蓝色 */
+  background-color: #e0f0fd; 
   height: 96rpx;  /* 高度为 96rpx */
   display: flex;  /* 使用 Flexbox 布局 */
   justify-content: space-between;  /* 两个图片之间均匀分配空间 */
@@ -75,7 +75,7 @@
   margin-top: 16rpx;  /* 上边距为 16rpx */
   font-weight: 600;  /* 字体加粗 */
   font-size: 32rpx;  /* 字体大小为 32rpx */
-  border-bottom: 16rpx solid #e6f3ff;
+  border-bottom: 16rpx solid #e0f0fd;
   padding-bottom: 4rpx;  /* 下内边距 */
 }
 
