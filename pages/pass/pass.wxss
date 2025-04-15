@@ -1,0 +1,158 @@
+/* 主要容器，设置为全屏并居中 */
+.container {
+  width: 100%;  /* 容器宽度为 100% */
+  height: 100vh;  /* 高度为视口高度 */
+  background-color: #145a9f;  /* 背景色为深蓝色 */
+  display: flex;  /* 使用 Flexbox 布局 */
+  justify-content: center;  /* 横向居中对齐 */
+  align-items: center;  /* 纵向居中对齐 */
+  flex-direction: column;  /* 设置主轴方向为纵向 */
+}
+
+/* 卡片容器，主要内容区的背景和样式 */
+.card {
+  margin-top: 0rpx;
+  width: 85%;  /* 宽度为父容器的 85% */
+  height: 75%;
+  background-color: #e0f0fd;  /* 背景色为深灰色 */
+  border-radius: 16rpx;  /* 设置圆角 */
+  padding: 8rpx;  /* 内边距为 8rpx */
+}
+
+/* 顶部条，包含两张图片 */
+.top-bar {
+  top: 0%;
+  background-color: #e0f0fd;  /* 背景色为浅蓝色 */
+  height: 96rpx;  /* 高度为 96rpx */
+  display: flex;  /* 使用 Flexbox 布局 */
+  justify-content: space-between;  /* 两个图片之间均匀分配空间 */
+  align-items: center;  /* 垂直居中 */
+  padding: 8rpx;  /* 内边距为 8rpx */
+  border-top-left-radius: 16rpx;  /* 左上角圆角 */
+  border-top-right-radius: 16rpx;  /* 右上角圆角 */
+}
+
+/* 顶部图片样式1 */
+.top-img1 {
+  height: 65%;  /* 高度为父容器的 60% */
+  width: 32%;  /* 宽度自适应 */
+}
+
+/* 顶部图片样式2 */
+.top-img2 {
+  height: 50%;  /* 高度为父容器的 60% */
+  width: 20%;  /* 宽度自适应 */
+}
+
+/* 主体区域样式 */
+.main {
+  background-color: #e0f0fd;  /* 背景色为浅蓝色 */
+  padding: 32rpx 16rpx;  /* 上下内边距 32rpx，左右 16rpx */
+  text-align: center;  /* 文本居中 */
+  height: 83%;
+  border-bottom-left-radius: 16rpx;  /* 左下角圆角 */
+  border-bottom-right-radius: 16rpx;  /* 右下角圆角 */
+}
+
+/* 个人照片样式 */
+.profile {
+  width: 300rpx;  /* 宽度固定 */
+  height: 300rpx;
+  margin: 0 auto;  /* 水平居中 */
+}
+
+/* 姓名标签样式 */
+.label-name {
+  color: #000000;  /* 文字颜色为黑色 */
+  font-weight: 320;  /* 字体加粗 */
+  font-size: 28rpx;  /* 字体大小为 28rpx */
+  padding-top: 2rpx;  /* 上内边距 */
+  padding-bottom: 2rpx;  /* 下内边距 */
+}
+
+/* 时间显示的样式 */
+.time {
+  margin-top: 16rpx;  /* 上边距为 16rpx */
+  font-weight: 600;  /* 字体加粗 */
+  font-size: 32rpx;  /* 字体大小为 32rpx */
+  border-bottom: 16rpx solid #e6f3ff;
+  padding-bottom: 4rpx;  /* 下内边距 */
+}
+
+
+/* 二维码的样式 */
+.qr-code {
+  width: 378rpx;  /* 宽度固定 */
+  height: 378rpx;
+  margin: 16rpx auto 0;  /* 上边距为 16rpx，左右居中 */
+  border: 4rpx solid #39ff14;  /* 绿色边框 */
+  padding: 4rpx;  /* 二维码外边框 */
+}
+
+/* 状态文本样式 */
+.status {
+  color: #39ff14;  /* 文字颜色为绿色 */
+  font-size: 60rpx;  /* 字体大小为 36rpx */
+  font-weight: 350;  /* 字体较轻 */
+  margin-top: 8rpx;  /* 上边距为 8rpx */
+}
+
+/* 底部信息栏，使用 Flexbox 布局 */
+.bottom-info {
+  width: 85%;  /* 宽度为父容器的 85% */
+  margin-top: 8rpx;  /* 上边距为 32rpx */
+  display: flex;  /* 使用 Flexbox 布局 */
+  overflow: hidden;  /* 隐藏溢出部分 */
+  background-color: #e6f3ff;  /* 背景色为深灰色 */
+  border-radius: 16rpx;  /* 设置圆角 */
+  padding: 6rpx;  /* 内边距为 8rpx */
+}
+
+/* 左侧预约信息框 */
+.left-box {
+  width: 50%;  /* 宽度为父容器的 50% */
+  background-color: #005bb5;  /* 背景色为深蓝色 */
+  color: white;  /* 字体颜色为白色 */
+  padding: 16rpx;  /* 内边距为 16rpx */
+  text-align: center;  /* 文本居中 */
+  border-radius: 12rpx;  /* 设置圆角 */
+}
+
+/* 标签样式 */
+.label {
+  font-size: 24rpx;  /* 字体大小为 24rpx */
+  font-weight: 300;  /* 字体较轻 */
+}
+
+/* 时间文本样式 */
+.time-text {
+  font-size: 28rpx;  /* 字体大小为 28rpx */
+  font-weight: 600;  /* 字体加粗 */
+  margin-top: 8rpx;  /* 上边距为 8rpx */
+}
+
+/* 右侧预约信息框 */
+.right-box {
+  width: 50%;  /* 宽度为父容器的 50% */
+  background-color: white;  /* 背景色为白色 */
+  padding: 16rpx;  /* 内边距为 16rpx */
+  text-align: center;  /* 文本居中 */
+}
+
+/* 灰色标签样式 */
+.label-gray {
+  color: #888;  /* 文字颜色为灰色 */
+  font-size: 24rpx;  /* 字体大小为 24rpx */
+}
+
+/* 位置文本样式 */
+.location {
+  font-size: 28rpx;  /* 字体大小为 28rpx */
+  font-weight: 300;  /* 字体较轻 */
+  margin-top: 8rpx;  /* 上边距为 8rpx */
+}
+
+.none{
+  width: auto;
+  height: 100rpx;
+}

@@ -1,0 +1,35 @@
+<view class="container">
+
+  <view class="card">
+
+    <view class="top-bar">
+      <image src="/images/嘉定校区.jpg" class="top-img1" />
+      <image src="/images/同济大学.jpg" class="top-img2" />
+    </view>
+
+    <view class="main">
+      <image src="/images/个人照片.jpg" class="profile" />
+      <view class="label-name">姓名</view>
+      <view class="time">{{ fullTime }}</view>
+      <image src="/images/二维码.jpg" class="qr-code" />
+      <view class="status">有效</view>
+    </view>
+
+  </view>
+
+  <view class="bottom-info">
+      <view class="left-box">
+        <view class="label">预约时间 {{ shortDate }}</view>
+        <view class="time-text">06:00:00</view>
+      </view>
+      <view class="right-box">
+        <view class="label-gray">预约进校门</view>
+        <view class="location">曹安公路4800号</view>
+      </view>
+    </view>
+
+  <view class="none">
+  
+  </view>
+
+</view>

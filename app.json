@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/pass/pass"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "light"
+  }
+}
